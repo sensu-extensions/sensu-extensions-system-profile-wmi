@@ -1,11 +1,11 @@
 require File.join(File.dirname(__FILE__), "helpers")
 require "sensu/extensions/system-profile-wmi"
 
-describe "Sensu::Extensions::SystemProfileWmi" do
+describe "Sensu::Extension::SystemProfileWmi" do
   include Helpers
 
   before do
-    @extension = Sensu::Extensions::SystemProfileWmi.new
+    @extension = Sensu::Extension::SystemProfileWMI.new
   end
 
   it "can run" do

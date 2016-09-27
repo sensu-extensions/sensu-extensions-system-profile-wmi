@@ -28,7 +28,7 @@ require 'win32ole'
 
 module Sensu
   module Extension
-    class WMIMetrics < Check
+    class SystemProfileWMI < Check
       def name
         'wmi_metrics'
       end
