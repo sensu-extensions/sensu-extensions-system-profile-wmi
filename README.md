@@ -29,7 +29,7 @@ service, and formats them as plaintext Graphite data.
 
 ``` json
 {
-  "system_profile": {
+  "wmi_metrics": {
     "interval": 10,
     "handler": "graphite",
     "add_client_prefix": true,
