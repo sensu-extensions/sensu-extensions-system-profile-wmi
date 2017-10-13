@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sensu-extensions-system-profile-wmi"
-  spec.version       = "0.0.1"
+  spec.version       = "1.0.0"
   spec.authors       = ["Sensu-Extensions and contributors"]
   spec.email         = ["<sensu-users@googlegroups.com>"]
 
-  spec.summary       = "EXTENSION_TYPE extension to do X"
-  spec.description   = "EXTENSION_TYPE extension to do X"
+  spec.summary       = "Check extension to collect Windows system metrics via WMI"
+  spec.description   = "Check extension to collect Windows system metrics via WMI"
   spec.homepage      = "https://github.com/sensu-extensions/sensu-extensions-system-profile-wmi"
 
   spec.files         = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md CHANGELOG.md)
